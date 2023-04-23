@@ -1,0 +1,155 @@
+@font-face {
+    font-family: "Intro";
+    font-style: normal;
+    font-weight: 400;
+    src: local("Intro"),
+        url("./fonts/IntroDemo-BlackCAPS.otf") format("otf"),
+        url("./fonts/IntroDemo-BlackInlineCAPS.otf") format("otf");
+}
+
+.overall_style {
+    font-family: "Intro", "Arial", sans-serif;
+}
+
+.vr_main {
+    width: 1440px;
+    height: 1311px;
+    background: #FFFFFF;
+}
+
+/*Header style starts*/
+.basket_button {
+    width: 115px;
+    height: 38px;
+    background: #5222D0;
+    border-radius: 100px;
+    margin: -845px 74px 773px 1251px;
+}
+
+.basket_button_text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 13px;
+    color: #FFFFFF;
+}
+
+.basket {
+    width: 14px;
+    height: 14px;
+}
+
+.header_logo {
+    margin: 90px 1163px 770px 76px;
+}
+
+/*Header style ends*/
+
+/*Main part style starts*/
+
+.main_title {
+    width: 542px;
+    height: 72px;
+    left: 125px;
+    top: 218px;
+    font-family: 'Intro ';
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 60px;
+    line-height: 120%;
+    margin-top: -650px;
+    margin-left: 125px;
+}
+
+.image {
+    width: 365px;
+    height: 270px;
+}
+
+.card-title {
+    font-family: 'Intro ';
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+.card-text {
+    width: 365px;
+    height: 160px;
+    left: 563px;
+    top: 669px;
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+}
+
+.row_one {
+    margin-left: 80px;
+}
+
+.row_two {
+    margin-left: 66px;
+}
+
+.card_red_border {
+    border: 1px solid #BB2247;
+    border-radius: 0;
+}
+
+.card_border {
+    border: none;
+}
+
+.news_card_color {
+    background-color: #EC615B;
+}
+
+.mail_field {
+    border-radius: 0;
+}
+
+.subscribe_button {
+    background: #5222D0;
+    border-radius: 100px;
+    width: 135px;
+    height: 38px;
+}
+
+.subscribe_button_location {
+    padding-top: -50px;
+    padding-bottom: 55px;
+    padding-left: 15px;
+}
+
+.card_context_location {
+    padding: 26px 40px 60px 35px;
+}
+
+/*Main part style ends*/
+
+/*Footer style starts*/
+.navbar {
+    white-space: nowrap;
+    width: 700px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style-type: none;
+    margin-top: 50px;
+    margin-left: 100px;
+}
+
+.nav-link {
+    width: 85px;
+    height: 32px;
+    left: 573px;
+    top: 788px;
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 160%;
+}
+
+/*Footer style ends*/
